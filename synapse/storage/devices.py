@@ -21,7 +21,7 @@ from synapse.api.errors import StoreError
 from ._base import SQLBaseStore, Cache
 from synapse.util.caches.descriptors import cached, cachedList, cachedInlineCallbacks
 
-from six import itervalues
+from six import itervalues, iteritems
 
 logger = logging.getLogger(__name__)
 

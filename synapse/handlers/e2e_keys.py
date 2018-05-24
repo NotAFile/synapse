@@ -19,6 +19,7 @@ import logging
 
 from canonicaljson import encode_canonical_json
 from twisted.internet import defer
+from six import iteritems
 
 from synapse.api.errors import (
     SynapseError, CodeMessageException, FederationDeniedError,

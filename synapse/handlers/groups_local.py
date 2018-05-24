@@ -15,6 +15,7 @@
 # limitations under the License.
 
 from twisted.internet import defer
+from six import iteritems
 
 from synapse.api.errors import SynapseError
 from synapse.types import get_domain_from_id
